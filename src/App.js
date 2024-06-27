@@ -1,16 +1,25 @@
 import React, { Component } from "react";
+import Header from "./Main/Header.js";
+import Main from "./Main/Main.js";
+import Faq from "./Main/Faq.js";
+import Footer from "./Main/Footer.js";
+import "./Main.css";
 
-class App extends Component{
-  constructor(props){
+class App extends Component {
+  constructor(props) {
     super(props);
     this.state = {
-      project: 'Lumiere',
-    }
+      project: "Lumiere",
+    };
   }
-  render(){
-    return(
-      <div>
-        <h1>Iniciando projeto: {this.state.project}</h1>
+
+  render() {
+    return (
+      <div id="application">
+        <Header />
+        <Main />
+        <Faq/>
+        <Footer/>
       </div>
     );
   }
