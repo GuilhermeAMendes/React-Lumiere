@@ -58,8 +58,16 @@ main {
   margin: 50px 30px;
   flex: 1;
 }
-main > h1 {
-  font-size: 60pt;
+main > blockquote {
+  font-size: 50pt;
+  display: flex;
+  flex-direction: column;
+  border-left: 4px solid black;
+  padding-left: 10px;
+}
+main > blockquote > span {
+  font-size: 20pt;
+  font-style: italic;
 }
 #faq {
   margin: 50px 30px;

@@ -1,17 +1,15 @@
 import React from "react";
 
-export const Main = () => {
-    return (
-      <main>
-        <h1>
-          The
-          <br />
-          Library
-        </h1>
-        <img src="/Images/Componente_1.png" alt="Library" />
-      </main>
-    );
-  };
-  
-  
-  export default Main;
+export const Main = ({ quote, author }) => {
+  return (
+    <main>
+      <blockquote>
+        {`"${quote}"`}
+        <span>{`- ${author}`}</span>
+      </blockquote>
+      <img src="/Images/Componente_1.png" alt="Library" />
+    </main>
+  );
+};
+
+export default Main;
