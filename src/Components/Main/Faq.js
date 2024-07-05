@@ -1,17 +1,33 @@
-import React from "react";
+import React, {useState,useEffect} from "react";
 
-export const Faq = ({ faqs }) => {
-  return (
+function Faq(){
+  const [faqs, setFaqs] = useState([]);
+
+  useEffect(()=>{
+    async function getQuests(){
+      try{
+        let res = await fetch('http://localhost:8000/faqs');
+        let data = await res.json();
+        setFaqs(data);
+      }catch(e){
+        console.log(e);
+        console.log(e.name);
+        console.log(e.message);
+      }
+    }
+    getQuests();
+  }, []);
+
+  return(
     <div id="faq">
-      <h2>Perguntas Frequentes</h2>
       {faqs.map((item, index) => (
         <details key={index}>
-          <summary>{item.textQuest}</summary>
-          <p>{item.textResponse}</p>
+          <summary>{item.question}</summary>
+          <p>{item.answer}</p>
         </details>
       ))}
     </div>
   );
-};
+}
 
 export default Faq;
