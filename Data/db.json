@@ -1,0 +1,20 @@
+{
+    "faqs": [
+      {
+        "id": 1,
+        "question": "Como posso fazer meu cadastro?",
+        "answer": "Você pode usar a barra de pesquisa no topo da página ou navegar pelas categorias disponíveis na seção de livros."
+      },
+      {
+        "id": 2,
+        "question": "Como faço para atualizar meus dados cadastrais?",
+        "answer": "Para atualizar seus dados de cadastro, vá à sua conta utilizando a seção Clientes, adicione o seu identificador e informações desejadas para atualização e, após o procedimento, clique em atualizar dados."
+      },
+      {
+        "id": 3,
+        "question": "Como posso encontrar um livro específico?",
+        "answer": "Você pode usar a barra de pesquisa no topo da página ou navegar pelas categorias disponíveis na seção de livros."
+      }
+    ]
+  }
+  
