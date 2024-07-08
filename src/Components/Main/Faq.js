@@ -1,15 +1,15 @@
-import React, {useState,useEffect} from "react";
+import React, { useState, useEffect } from 'react';
 
-function Faq(){
+function Faq() {
   const [faqs, setFaqs] = useState([]);
 
-  useEffect(()=>{
-    async function getQuests(){
-      try{
+  useEffect(() => {
+    async function getQuests() {
+      try {
         let res = await fetch('http://localhost:8000/faqs');
         let data = await res.json();
         setFaqs(data);
-      }catch(e){
+      } catch (e) {
         console.log(e);
         console.log(e.name);
         console.log(e.message);
@@ -18,7 +18,7 @@ function Faq(){
     getQuests();
   }, []);
 
-  return(
+  return (
     <div id="faq">
       {faqs.map((item, index) => (
         <details key={index}>

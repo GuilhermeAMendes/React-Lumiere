@@ -8,23 +8,6 @@ function App() {
   const [anchor_2] = useState("Livros");
   const [cite, setCite] = useState("");
   const [author, setAuthor] = useState("");
-  const [quests] = useState([
-    {
-      textQuest: "Como posso fazer meu cadastro?",
-      textResponse:
-        "Você pode usar a barra de pesquisa no topo da página ou navegar pelas categorias disponíveis na seção de livros.",
-    },
-    {
-      textQuest: "Como faço para atualizar meus dados cadastrais?",
-      textResponse:
-        "Para atualizar seus dados de cadastro, vá à sua conta utilizando a seção Clientes, Adicione o seu identificador e informações desejadas para atualização e após o procedimento clique em atualizar dados.",
-    },
-    {
-      textQuest: "Como posso encontrar um livro específico?",
-      textResponse:
-        "Você pode usar a barra de pesquisa no topo da página ou navegar pelas categorias disponíveis na seção de livros.",
-    },
-  ]);
 
   useEffect(() => {
     async function getCite() {
@@ -47,7 +30,7 @@ function App() {
     <div>
       <Header current_page={page} anchor_1={anchor_1} anchor_2={anchor_2} />
       <Main quote={cite} author={author} />
-      <Faq faqs={quests} />
+      <Faq/>
       <Footer />
     </div>
   );
