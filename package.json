@@ -12,11 +12,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "concurrently \"react-scripts start\" \"json-server --watch Data/db.json --port 8000\"",
+    "start": "concurrently \"react-scripts start\" \"json-server --watch Data/Faq.json --port 5000\" \"json-server --watch Data/Users.json --port 5001\" \"json-server --watch Data/Books.json --port 5002\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "json-server": "json-server --watch Data/db.json --port 8000"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

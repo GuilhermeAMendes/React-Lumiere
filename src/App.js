@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { Header, Main, Faq, Footer } from "./Components/Main/";
-import "./Main.css";
+import Header from "./Components/Header/Header.js";
+import Main from "./Components/Main/Main.js";
+import Faq from "./Components/Faq/Faq.js";
+import Footer from "./Components/Footer/Footer.js";
+import "./App.css";
 
 function App() {
   const [page] = useState("Início");

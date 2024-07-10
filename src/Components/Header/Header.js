@@ -1,6 +1,7 @@
 import React from "react";
+import "./Header.css";
 
-const Header = ({current_page, anchor_1, anchor_2}) => {
+const Header = ({ current_page, anchor_1, anchor_2 }) => {
   return (
     <header>
       <div className="website">

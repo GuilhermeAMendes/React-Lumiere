@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  padding: 10px 0px;
+  width: 100%;
+  font-size: larger;
+  position: relative;
+}
+
+.website {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px 5px;
+}
+
+#logo {
+  width: 40px;
+  justify-items: left;
+  padding: 0px 10px;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  flex-direction: row;
+}
+
+a {
+  margin: 10px;
+  text-decoration: none;
+  color: var(--text-color-1);
+}
+
+a:hover {
+  color: var(--highlight-color);
+}

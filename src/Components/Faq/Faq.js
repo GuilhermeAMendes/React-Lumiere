@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './Faq.css';
 
 function Faq() {
   const [faqs, setFaqs] = useState([]);
@@ -6,7 +7,7 @@ function Faq() {
   useEffect(() => {
     async function getQuests() {
       try {
-        let res = await fetch('http://localhost:8000/faqs');
+        let res = await fetch('http://localhost:5000/faqs');
         let data = await res.json();
         setFaqs(data);
       } catch (e) {
