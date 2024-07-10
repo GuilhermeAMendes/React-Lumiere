@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 
-const Header = ({ current_page, anchor_1, anchor_2 }) => {
+const Header = ({ current_page, anchor_1, anchor_2 , anchor_3}) => {
   return (
     <header>
       <div className="website">
@@ -9,10 +9,9 @@ const Header = ({ current_page, anchor_1, anchor_2 }) => {
         {current_page}
       </div>
       <nav>
-        <ul>
-          <a href="clients.htm">{anchor_1}</a>
-          <a href="books.htm">{anchor_2}</a>
-        </ul>
+        <a href="Users.html">{anchor_1}</a>
+        <a href="Books.html">{anchor_2}</a>
+        <a href="Faq.html">{anchor_3}</a>
       </nav>
     </header>
   );

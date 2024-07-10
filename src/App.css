@@ -34,8 +34,6 @@ body {
   min-height: 100%;
 }
 
-
-
 @media (max-width: 767px) {
   main {
     flex-direction: column;
@@ -53,8 +51,7 @@ body {
     align-items: center;
   }
 
-  nav ul {
-    display: flex;
+  nav {
     flex-direction: column;
     text-align: center;
   }
