@@ -1,22 +1,23 @@
-import React, { useState } from "react";
+import React from "react";
 import Header from "./Components/Header/Header.js";
 import Main from "./Components/Main/Main.js";
 import Footer from "./Components/Footer/Footer.js";
 import { Route, Routes, HashRouter } from "react-router-dom";
 import "./App.css";
+import FaqPage from "./Pages/Faq/FaqPage.js";
+import UsersPage from "./Pages/Users/Users.js";
+import BooksPage from "./Pages/Books/Books.js";
 
 function App() {
-  const [page] = useState("Início");
-  const [anchor_1] = useState("Usuários");
-  const [anchor_2] = useState("Livros");
-  const [anchor_3] = useState("FAQ");
-
   return (
     <div>
       <HashRouter>
-        <Header current_page={page} anchor_1={anchor_1} anchor_2={anchor_2} anchor_3={anchor_3} />
+        <Header />
         <Routes>
           <Route path="/" element={<Main />} />
+          <Route path="/Users" element={<UsersPage/>}/>
+          <Route path="/Books" element={<BooksPage/>}/>
+          <Route path="/Faq" element={<FaqPage/>}/>
         </Routes>
         <Footer />
       </HashRouter>
