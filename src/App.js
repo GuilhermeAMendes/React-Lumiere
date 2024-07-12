@@ -3,8 +3,10 @@ import Header from "./Components/Header/Header.js";
 import Main from "./Components/Main/Main.js";
 import Footer from "./Components/Footer/Footer.js";
 import { Route, Routes, HashRouter } from "react-router-dom";
-import FaqPage from "./Pages/Faq/FaqPage.js";
 import "./App.css";
+import FaqPage from "./Pages/Faq/FaqPage.js";
+import UsersPage from "./Pages/Users/Users.js";
+import BooksPage from "./Pages/Books/Books.js";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Main />} />
+          <Route path="/Users" element={<UsersPage/>}/>
+          <Route path="/Books" element={<BooksPage/>}/>
           <Route path="/Faq" element={<FaqPage/>}/>
         </Routes>
         <Footer />

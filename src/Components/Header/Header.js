@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
 
-function Header(){
+function Header() {
   const [page] = useState("Início");
   const [anchor_1] = useState("Usuários");
   const [anchor_2] = useState("Livros");
@@ -14,18 +14,12 @@ function Header(){
         <NavLink to="/">{page}</NavLink>
       </div>
       <nav>
-        <NavLink to="/Users">
-          {anchor_1}
-        </NavLink>
-        <NavLink to="/Books">
-          {anchor_2}
-        </NavLink>
-        <NavLink to="/Faq">
-          {anchor_3}
-        </NavLink>
+        <NavLink to="/Users">{anchor_1}</NavLink>
+        <NavLink to="/Books">{anchor_2}</NavLink>
+        <NavLink to="/Faq">{anchor_3}</NavLink>
       </nav>
     </header>
   );
-};
+}
 
 export default Header;

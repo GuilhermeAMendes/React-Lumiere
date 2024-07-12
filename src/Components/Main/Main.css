@@ -1,20 +1,21 @@
 main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 50px 30px;
-    flex: 1;
-  }
-  
-  main > blockquote {
-    font-size: 50pt;
-    display: flex;
-    flex-direction: column;
-    border-left: 4px solid var(--highlight-color-2);
-    padding: 10px;
-  }
-  
-  main > blockquote > span {
-    font-size: 20pt;
-    font-style: italic;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 30px;
+  flex: 1;
+  background-color: var(--body-color);
+}
+
+main > blockquote {
+  font-size: 50pt;
+  display: flex;
+  flex-direction: column;
+  border-left: 4px solid var(--highlight-color-2);
+  padding: 10px;
+}
+
+main > blockquote > span {
+  font-size: 20pt;
+  font-style: italic;
+}
