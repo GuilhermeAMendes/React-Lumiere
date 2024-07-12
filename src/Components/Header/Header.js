@@ -1,17 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import "./Header.css";
 
-const Header = ({ current_page, anchor_1, anchor_2 , anchor_3}) => {
+function Header(){
+  const [page] = useState("Início");
+  const [anchor_1] = useState("Usuários");
+  const [anchor_2] = useState("Livros");
+  const [anchor_3] = useState("FAQ");
   return (
     <header>
       <div className="website">
         <img src="/Images/Componente_5.png" alt="Logo" id="logo" />
-        {current_page}
+        <NavLink to="/">{page}</NavLink>
       </div>
       <nav>
-        <a href="Users.html">{anchor_1}</a>
-        <a href="Books.html">{anchor_2}</a>
-        <a href="Faq.html">{anchor_3}</a>
+        <NavLink to="/Users">
+          {anchor_1}
+        </NavLink>
+        <NavLink to="/Books">
+          {anchor_2}
+        </NavLink>
+        <NavLink to="/Faq">
+          {anchor_3}
+        </NavLink>
       </nav>
     </header>
   );
