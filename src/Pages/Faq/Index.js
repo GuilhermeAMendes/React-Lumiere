@@ -1,6 +1,6 @@
 import React from "react";
-import Faq from "../../Components/Faq/Faq";
-import './FaqPage.css';
+import Faq from "../../Components/Faq/Index";
+import './Index.css';
 
 function FaqPage() {
   return (

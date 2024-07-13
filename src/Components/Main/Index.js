@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Main.css";
+import "./Index.css";
 
 function Main() {
   const [cite, setCite] = useState("");
