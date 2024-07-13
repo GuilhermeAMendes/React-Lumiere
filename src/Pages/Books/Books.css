@@ -23,7 +23,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 30px;
+  margin: 50px;
+  margin-top: 20vh;
   flex: 1;
   box-sizing: border-box;
   border-radius: 20px;
@@ -38,63 +39,6 @@ body {
 #mainBooks > img {
   width: 45vw;
   height: auto;
-}
-
-.container_inputs {
-  padding: 20px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.container_inputs > h1 {
-  background-color: var(--body-color);
-  border-radius: 10px;
-  padding: 10px;
-  text-align: center;
-  width: 200px;
-  margin: 10px 0px;
-  box-sizing: content-box;
-}
-input {
-  border-radius: 10px;
-  border: 1px solid var(--text-color-1);
-  padding: 5px;
-  margin: 5px 0px;
-}
-
-#container_buttons {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-button {
-  background-color: var(--secundary-color);
-  border: 0px;
-  padding: 3px;
-  border-radius: 10px;
-  padding: 10px 0px;
-  height: 5vh;
-  text-align: center;
-  display: inline-block;
-  max-width: 15rem;
-  min-width: 6rem;
-  margin: 5px;
-}
-
-button:hover{
-    background-color: aqua;
-}
-
-.view {
-  background-color: var(--primary-color);
-  width: 98%;
-  height: auto;
-  margin: auto;
-  padding: 20px;
-  border-radius: 10px;
-  display: none;
 }
 
 .person-details {
@@ -131,6 +75,7 @@ button:hover{
     justify-content: center;
   }
   #container_buttons {
-    display: grid;
+    display: flex;
+    flex-direction: column;
   }
 }
