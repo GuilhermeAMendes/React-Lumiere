@@ -3,7 +3,11 @@ main {
   justify-content: space-between;
   align-items: center;
   margin: 50px 30px;
+  margin-top: 15vh;
   flex: 1;
+  box-sizing: border-box;
+  border-radius: 20px;
+  flex-wrap: wrap;
   background-color: var(--body-color);
 }
 
