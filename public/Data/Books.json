@@ -1,5 +1,12 @@
 {
     "Books": [
-        
+        {
+            "ISBN": "123-456-789-01",
+            "title" : "1984",
+            "author": ["George Orwell"],
+            "year": 1949,
+            "genre" : "Fiction",
+            "numberOfPages": 326
+        }
     ]
 }

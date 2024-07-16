@@ -1,5 +1,19 @@
 {
     "users": [
-        
+        {
+            "CPF": "123.456.789-89",
+            "name": "Guilherme",
+            "street" : "Av. A",
+            "nro": "123",
+            "CEP": "1xx.5xx-801",
+            "emails": [
+                "gui@gmail.com","guiandmendes@gmail.com"
+            ],
+            "telephones": [
+                "(16) 993xx-44xx","(16) 992xx-35x9"
+            ],
+            "birthday": "26/07/2003",
+            "profession": "web developer"
+        }    
     ]
 }
