@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import "./Header.css";
+import "./Index.css";
 
 function Header() {
   const [page] = useState("Início");

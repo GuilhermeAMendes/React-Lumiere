@@ -1,8 +1,8 @@
 import React from "react";
 import Buttons from "./Subcomponents/Buttons/Buttons";
 import Inputs from "./Subcomponents/Inputs/Inputs";
-import View from "../../Components/View/View";
-import "./Users.css";
+import View from "../../Components/View/Index";
+import "./Index.css";
 
 
 function UsersPage() {

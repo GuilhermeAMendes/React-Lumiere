@@ -1,8 +1,8 @@
 import React from "react";
-import "./Books.css";
-import Inputs from "./Subcomponents/Inputs/Inputs";
-import Buttons from "./Subcomponents/Buttons/Buttons";
-import View from "../../Components/View/View";
+import "./Index.css";
+import Inputs from "./Subcomponents/Inputs/Index";
+import Buttons from "./Subcomponents/Buttons/Index";
+import View from "../../Components/View/Index";
 
 function BooksPage() {
   return (

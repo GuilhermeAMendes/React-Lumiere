@@ -1,5 +1,5 @@
 import React from "react";
-import "./Inputs.css";
+import "../../../../Components/Global/Inputs.css";
 
 function Inputs() {
   return (

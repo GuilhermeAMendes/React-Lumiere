@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "./Components/Header/Header.js";
-import Main from "./Components/Main/Main.js";
-import Footer from "./Components/Footer/Footer.js";
+import Header from "./Components/Header/Index.js";
+import Main from "./Components/Main/Index.js";
+import Footer from "./Components/Footer/Index.js";
+import FaqPage from "./Pages/Faq/Index.js";
+import UsersPage from "./Pages/Users/Index.js";
+import BooksPage from "./Pages/Books/Index.js";
 import { Route, Routes, HashRouter } from "react-router-dom";
 import "./App.css";
-import FaqPage from "./Pages/Faq/FaqPage.js";
-import UsersPage from "./Pages/Users/Users.js";
-import BooksPage from "./Pages/Books/Books.js";
 
 function App() {
   return (
