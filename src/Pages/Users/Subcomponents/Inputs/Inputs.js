@@ -1,12 +1,17 @@
 import React from "react";
 import "../../../../Components/Global/Inputs.css";
 
-function Inputs() {
+function Inputs({ handleFetchOneUser }) {
+  const handleChange = (e) => {
+    const id = e.target.value;
+    handleFetchOneUser(id);
+  };
+
   return (
     <div className="container_inputs">
       <h1>Usuários</h1>
       <label>CPF: </label>
-      <input type="text" id="textCPF" />
+      <input type="text" id="textCPF" onChange={handleChange} />
       <label>Nome: </label>
       <input type="text" id="textName" />
       <label>Rua: </label>
