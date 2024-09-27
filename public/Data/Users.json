@@ -1,5 +1,79 @@
 {
     "users": [
-        
+        {
+            "CPF": "123.456.789-89",
+            "name": "Guilherme",
+            "street" : "Av. A",
+            "nro": "123",
+            "CEP": "1xx.5xx-801",
+            "emails": [
+                "gui@gmail.com", "guiandmendes@gmail.com"
+            ],
+            "telephones": [
+                "(16) 993xx-44xx", "(16) 992xx-35x9"
+            ],
+            "birthday": "26/07/2003",
+            "profession": "web developer"
+        },
+        {
+            "CPF": "234.567.890-12",
+            "name": "Ana",
+            "street" : "Rua B",
+            "nro": "456",
+            "CEP": "2xx.6xx-902",
+            "emails": [
+                "ana@gmail.com"
+            ],
+            "telephones": [
+                "(11) 988xx-55yy"
+            ],
+            "birthday": "15/03/1990",
+            "profession": "graphic designer"
+        },
+        {
+            "CPF": "345.678.901-23",
+            "name": "Carlos",
+            "street" : "Av. C",
+            "nro": "789",
+            "CEP": "3xx.7xx-003",
+            "emails": [
+                "carlos@gmail.com", "carl_dev@gmail.com"
+            ],
+            "telephones": [
+                "(21) 987xx-66yy", "(21) 986xx-77zz"
+            ],
+            "birthday": "22/08/1985",
+            "profession": "software engineer"
+        },
+        {
+            "CPF": "456.789.012-34",
+            "name": "Beatriz",
+            "street" : "Rua D",
+            "nro": "101",
+            "CEP": "4xx.8xx-104",
+            "emails": [
+                "bia@gmail.com"
+            ],
+            "telephones": [
+                "(31) 985xx-88yy"
+            ],
+            "birthday": "30/11/1995",
+            "profession": "data scientist"
+        },
+        {
+            "CPF": "567.890.123-45",
+            "name": "Eduardo",
+            "street" : "Av. E",
+            "nro": "202",
+            "CEP": "5xx.9xx-205",
+            "emails": [
+                "edu@gmail.com", "edu_dev@gmail.com"
+            ],
+            "telephones": [
+                "(41) 984xx-99yy", "(41) 983xx-00zz"
+            ],
+            "birthday": "05/05/2000",
+            "profession": "front-end developer"
+        }
     ]
 }

@@ -1,5 +1,44 @@
 {
     "Books": [
-        
+        {
+            "ISBN": "123-456-789-01",
+            "title" : "1984",
+            "author": ["George Orwell"],
+            "year": 1949,
+            "genre" : "Fiction",
+            "numberOfPages": 326
+        },
+        {
+            "ISBN": "234-567-890-12",
+            "title" : "To Kill a Mockingbird",
+            "author": ["Harper Lee"],
+            "year": 1960,
+            "genre" : "Fiction",
+            "numberOfPages": 281
+        },
+        {
+            "ISBN": "345-678-901-23",
+            "title" : "Pride and Prejudice",
+            "author": ["Jane Austen"],
+            "year": 1813,
+            "genre" : "Romance",
+            "numberOfPages": 279
+        },
+        {
+            "ISBN": "456-789-012-34",
+            "title" : "The Great Gatsby",
+            "author": ["F. Scott Fitzgerald"],
+            "year": 1925,
+            "genre" : "Tragedy",
+            "numberOfPages": 180
+        },
+        {
+            "ISBN": "567-890-123-45",
+            "title" : "Moby-Dick",
+            "author": ["Herman Melville"],
+            "year": 1851,
+            "genre" : "Adventure",
+            "numberOfPages": 635
+        }
     ]
 }

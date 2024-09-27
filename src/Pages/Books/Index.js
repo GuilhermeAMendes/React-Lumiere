@@ -2,7 +2,7 @@ import React from "react";
 import "./Index.css";
 import Inputs from "./Subcomponents/Inputs/Index";
 import Buttons from "./Subcomponents/Buttons/Index";
-import View from "../../Components/View/Index";
+import View from "./Subcomponents/View";
 
 function BooksPage() {
   return (
@@ -11,8 +11,8 @@ function BooksPage() {
         <img src="/Images/Componente_4.png" alt="" />
           <Inputs/>
           <Buttons/>
+          <View/>
       </main>
-      <View/>
       <br></br>
     </div>
   );
